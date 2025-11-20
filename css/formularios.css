@@ -1,0 +1,115 @@
+/* ESTILOS PARA LOS FORMULARIOS */
+.contenedor-formulario {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+/* TARJETA */
+.tarjeta-formulario {
+    background: var(--blanco-tarjeta); 
+    padding: 2rem;
+    border-radius: 14px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.10);
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid var(--gris-borde); 
+}
+
+/* TÍTULO */
+.titulo-formulario {
+    color: var(--gris); 
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+/* GRUPOS */
+.grupo-formulario {
+    margin-bottom: 1.4rem;
+}
+
+.etiqueta-formulario {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--azul-marino);
+    font-weight: 500;
+}
+
+/* INPUTS */
+.entrada-formulario {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--gris-borde);
+    border-radius: 8px;
+    font-size: 1rem;
+    background: var(--blanco);
+    transition: 0.3s ease;
+}
+
+.entrada-formulario:focus {
+    outline: none;
+    border-color: var(--gris);
+    box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.25); 
+}
+
+/* BOTÓN PRINCIPAL */
+.boton-formulario {
+    width: 100%;
+    padding: 0.8rem;
+    background: var(--gris);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.boton-formulario:hover {
+    background: var(--gris-oscuro);
+}
+
+/* PIE */
+.pie-formulario {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: var(--azul-gris);
+}
+
+.enlace-formulario {
+    color: var(--gris);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.enlace-formulario:hover {
+    text-decoration: underline;
+}
+
+/* MENSAJES */
+.alerta {
+    padding: 0.85rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* VERDE: ÉXITO */
+.alerta-exito {
+    background: rgba(16, 185, 129, 0.12);
+    color: var(--verde);
+    border: 1px solid var(--verde);
+}
+
+/* ROJO: ERROR */
+.alerta-error {
+    background: rgba(239, 68, 68, 0.12);
+    color: var(--rojo);
+    border: 1px solid var(--rojo);
+}

@@ -1,0 +1,76 @@
+/* ESTILOS DEL HEADER - ADAPTADO PARA LOBO'S GANG */
+.cabecera-principal {
+    background: linear-gradient(90deg, #0a0a0a, #1a1a1a);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid var(--gris); 
+}
+
+.contenido-cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO DEL EQUIPO */
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--gris);
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-shadow: 0 0 8px var(--gris);
+}
+
+/* NAV */
+.navegacion-principal ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.navegacion-principal a {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.navegacion-principal a:hover {
+    color: var(--gris);
+    text-shadow: 0 0 6px var(--gris);
+}
+
+/* SECCIÓN USUARIO / BOTONES */
+.menu-usuario {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* BOTONES */
+.boton {
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+/* BOTÓN PRINCIPAL CON ESTILO LOBO'S GANG */
+.boton-principal {
+    background-color: var(--gris);
+    color: white;
+    box-shadow: 0 0 8px var(--gris);
+}
+
+.boton-principal:hover {
+    background-color: var(--gris-oscuro);
+    box-shadow: 0 0 12px var(--gris);
+}

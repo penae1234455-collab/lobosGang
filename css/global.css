@@ -1,0 +1,59 @@
+/* ESTILOS GLOBALES */
+:root {
+    --gris: #6B6B6B; 
+    --gris-oscuro: #4F4F4F;    
+    --azul-marino: #0F172A; 
+    --azul-gris: #64748B; 
+
+    --gris-claro: #F1F5F9; 
+    --blanco: #FFFFFF; 
+    --blanco-tarjeta: #FFFFFF; 
+    
+    --gris-borde: #E2E8F0; 
+
+    --verde: #10B981; 
+    --rojo: #EF4444; 
+}
+
+/* Estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--gris-claro);
+    color: var(--azul-marino);
+    line-height: 1.6;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.texto-centro { 
+    text-align: center; 
+    color: var(--azul-marino); 
+}
+
+
+.caracteristicas .texto-centro {
+    color: var(--blanco);
+}
+
+.mt-20 {
+    margin-top: 20px; 
+}
+
+.mb-20 {
+    margin-bottom: 20px; 
+}
+
+.oculto {
+    display: none; 
+}

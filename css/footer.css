@@ -1,0 +1,20 @@
+/* FOOTER LOBO'S GANG*/
+.pie-pagina {
+    background: linear-gradient(135deg, var(--gris), var(--gris-oscuro));
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: auto;
+    color: #ffffff;
+    border-top: 2px solid rgba(255,255,255,0.06);
+}
+
+.derechos-autor {
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.85);
+    letter-spacing: 0.5px;
+}
+
+.derechos-autor span {
+    color: var(--verde); 
+    font-weight: bold;
+}
